@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/screen_padding"
+    android:background="@drawable/background">>
+
+    <!--氏名テキスト-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/result_txv_name"
+        android:text="ここに氏名が表示されます。"
+        android:textColor="@color/colortext"
+        />
+
+    <!--占い結果テキスト-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/result_txv_divine"
+        android:text="ここに占い結果が表示されます。"
+        android:textColor="@color/colortext"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/main_btn_divine2"
+        android:id="@+id/main_btn_divine2"/>
+
+</LinearLayout>
