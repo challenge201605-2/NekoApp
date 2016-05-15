@@ -8,4 +8,8 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="RadioImage" parent="android:Widget.CompoundButton.RadioButton">
+        <item name="android:button">@drawable/gzu</item>
+    </style>
+
 </resources>

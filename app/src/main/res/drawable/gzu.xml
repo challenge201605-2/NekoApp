@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- フォーカスがあたっていて、チェックされている画像 -->
+    <item
+        android:state_checked="true"
+        android:state_pressed="true"
+        android:drawable="@drawable/background"
+        />
+    <!-- フォーカスがあたっていて、チェックされてない画像 -->
+    <item
+        android:state_checked="true"
+        android:drawable="@drawable/neko1"
+        />
+    <!-- フォーカスがあたってなくて、チェックされている画像-->
+    <item
+        android:state_checked="false"
+        android:state_pressed="true"
+        android:drawable="@drawable/neko2"
+        />
+    <!-- フォーカスがあたってなくて、チェックされてない画像 -->
+    <item
+        android:state_checked="false"
+        android:drawable="@drawable/neko3"
+        />
+</selector>
