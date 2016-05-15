@@ -13,7 +13,7 @@
     android:orientation="vertical"
     android:padding="@dimen/screen_padding"
     android:gravity="center_horizontal"
-    android:background="@drawable/niku">
+    android:background="@drawable/kuro">
 
     <!--タイトル-->
     <!--text:表示する文字列-->
