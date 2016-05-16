@@ -2,16 +2,12 @@
     <string name="app_name">nekoApp</string>
 
     <!--TextViewに表示する文字列-->
-    <string name="main_txv_title">にゃんこ</string>
-    <string name="main_txv_name">名前</string>
-    <string name="main_txv_birthday">生年月日</string>
-    <string name="main_txv_year">年</string>
-    <string name="main_txv_month">月</string>
-    <string name="main_txv_day">日</string>
-    <string name="main_txv_gender">好きなにゃんこを選んでね</string>
+    <string name="main_txv_title">肉球ルーレット</string>
+    <string name="main_txv_decide">何を食べるか決めてあげるにゃ！</string>
+    <string name="main_txv_gender">好きなにゃんこを選ぶにゃ</string>
 
     <!--Buttonに表示する文字列-->
-    <string name="main_btn_divine">聞いてみる</string>
+    <string name="main_btn_divine">聞いてみる💛</string>
     <string name="main_btn_divine3">リセット</string>
 
     <string name="main_btn_divine2">気に入りません</string>
@@ -28,6 +24,12 @@
         <item>平成</item>
     </string-array>
     <!--占い結果でーた-->
+    <string name="result_txv_title0">今日のごはんは・・・</string>
+    <string name="result_txv_title4">に決定にゃ！</string>
+    <string name="result_txv_title1">しょうがないにゃー。</string>
+    <string name="result_txv_title2">もう一度</string>
+    <string name="result_txv_title3">選んであげるにゃ</string>！
+
     <string-array name="result_txv_divine_date">
         <item>牛丼</item>
         <item>オムレツ</item>

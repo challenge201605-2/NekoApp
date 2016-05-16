@@ -15,7 +15,7 @@ public class ResultActivity extends AppCompatActivity implements View.OnClickLis
         setContentView(R.layout.activity_result);
 
         //レイアウト（activity_result.xml)より，名前,結果のテキストビューを取得
-        TextView txvName = (TextView) findViewById(R.id.result_txv_name);
+       // TextView txvName = (TextView) findViewById(R.id.result_txv_name);
         TextView txvDivine = (TextView) findViewById(R.id.result_txv_divine);
 
         // 遷移元のIntentを取得
@@ -23,7 +23,7 @@ public class ResultActivity extends AppCompatActivity implements View.OnClickLis
 
         // 遷移元でセットした氏名を取得し、TextViewに設定する
         String name = intent.getStringExtra(MainActivity.INPUT_NAME);
-        txvName.setText(name);
+        //txvName.setText(name);
 
 
         //遷移先でセットした結果番号を取得する

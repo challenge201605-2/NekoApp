@@ -13,7 +13,7 @@
     android:orientation="vertical"
     android:padding="@dimen/screen_padding"
     android:gravity="center_horizontal"
-    android:background="@drawable/kuro">
+    android:background="#fcebe4">
 
     <!--タイトル-->
     <!--text:表示する文字列-->
@@ -21,14 +21,18 @@
     <!--textSize:テキストのサイズ-->
     <TextView
         android:layout_width="wrap_content"
-        android:layout_height="0dp"
+        android:layout_height="wrap_content"
         android:text="@string/main_txv_title"
         android:layout_gravity="center_horizontal"
         android:textSize="@dimen/title_textSize"
         android:textColor="@color/colortext"
-        android:layout_weight="3"
+        android:layout_weight="0.31"
         />
-
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:src="@drawable/nekotop"
+        android:layout_gravity="center_horizontal" />
     <!--名前テキスト-->
     <!--textAppearance:テキストのスタイル-->
 
@@ -48,13 +52,27 @@
 
 
     <!--性別テキスト-->
+
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="@string/main_txv_gender"
+        android:text="@string/main_txv_decide"
+        android:id="@+id/main_decide_txv"
         android:layout_weight="1"
         android:textColor="@color/colortext"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="@string/main_txv_gender"
+        android:id="@+id/main_gender_txv"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/colortext"/>
+
+
 
     <ImageButton
         android:id="@+id/img_button"
@@ -88,16 +106,19 @@
     <!--android:text="@string/main_radio_btn_female"-->
     <!--android:layout_weight="1"-->
     <!--android:id="@+id/main_rd_btn_female"-->
-    <!--android:textColor="@color/colortext"/>-->
-    <!--</RadioGroup>-->
+    <!--android:textColor="@color/colort->
 
-    <!--占うボタン-->
+
+    <!-占うボタン-->
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/main_btn_divine"
         android:layout_weight="0.5"
-        android:id="@+id/main_btn_divine"/>
+        android:id="@+id/main_btn_divine"
+        android:background="#f9cbbe"
+        android:textColor="#ffffff"
+        android:textSize="30dp"/>
     //  リセットボタン
     //    android:layout_width="match_parent"
     //    android:layout_height="wrap_content"

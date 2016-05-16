@@ -2,33 +2,57 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:padding="@dimen/screen_padding"
-    android:background="@drawable/kuro">>
+    android:weightSum="1"
+    android:background="#ffffff"
+    android:orientation="vertical">>
 
     <!--氏名テキスト-->
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:id="@+id/result_txv_name"
-        android:text=""
-        android:textColor="@color/colortext"
-        />
+
 
     <!--占い結果テキスト-->
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/result_txv_title0"
+        android:textColor="@color/colortext"
+        android:textSize="20dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50dp"
         android:id="@+id/result_txv_divine"
         android:text=""
-        android:textColor="@color/colortext"/>
+        android:textColor="@color/colortext"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="@string/result_txv_title4"
+        android:layout_marginTop="0dp"
+        android:textColor="@color/colortext"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="right" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:src="@drawable/result"
+        android:layout_gravity="right"
+        android:layout_marginTop="170dp"/>
 
     <Button
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/main_btn_divine2"
-        android:id="@+id/main_btn_divine2"/>
+        android:id="@+id/main_btn_divine2"
+        android:layout_marginTop="20dp" />
+
 
 </LinearLayout>
