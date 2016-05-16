@@ -31,28 +31,14 @@
 
     <!--名前テキスト-->
     <!--textAppearance:テキストのスタイル-->
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="0dp"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="@string/main_txv_name"
-        android:layout_weight="1"
-        android:textColor="@color/colortext"/>
+
+
 
     <!--名前入力欄-->
     <!--inputType:入力形式-->
     <!--ems:入力文字数-->
     <!--id:識別子(プログラムから呼び出す際に必要)-->
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:inputType="textPersonName"
-        android:text="Name"
-        android:ems="10"
-        android:id="@+id/main_etx_name"
-        android:background="#e4c9c9"
-        android:textColor="@color/colortext"/>
+
 
 
 
@@ -74,7 +60,7 @@
         android:id="@+id/img_button"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="2"
+        android:layout_weight="7"
         android:src="@drawable/neko1"
         />
     <!--性別ラジオボタングループ-->

@@ -111,17 +111,17 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 // Intentクラスのオブジェクトを作成
                 //this:                 このクラスMainActivity自身
                 //ResultActivity.class:遷移先のクラス
-                Intent intent = new Intent(this, com.example.tomigaya.nekoapp.ResultActivity.class);
+                Intent intent = new Intent(this,ResultActivity.class);
 
                 //入力されている名前Stringを文字列として取得
-                etx = (EditText) findViewById(R.id.main_etx_name);
-                String inputName = etx.getText().toString();
+            //    etx = (EditText) findViewById(R.id.main_etx_name);
+              //  String inputName = etx.getText().toString();
 
 
                 //遷移先に渡すデータをセット
                 //１取り出すときに指定するキー
                 //２実際のデータ
-                intent.putExtra(INPUT_NAME, inputName);
+               // intent.putExtra(INPUT_NAME, inputName);
 
                 //0-9までのランダムな値を生成する
                 int resultNumber = new java.util.Random().nextInt(10);
@@ -134,7 +134,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 
             case R.id.main_btn_divine3:
-                etx = (EditText) findViewById(R.id.main_etx_name);
+           //     etx = (EditText) findViewById(R.id.main_etx_name);
 
                 etx.setText("");
                 break;

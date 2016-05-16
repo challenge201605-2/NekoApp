@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">UranaiApp</string>
+    <string name="app_name">nekoApp</string>
 
     <!--TextViewに表示する文字列-->
     <string name="main_txv_title">にゃんこ</string>
@@ -8,13 +8,13 @@
     <string name="main_txv_year">年</string>
     <string name="main_txv_month">月</string>
     <string name="main_txv_day">日</string>
-    <string name="main_txv_gender">性別</string>
+    <string name="main_txv_gender">好きなにゃんこを選んでね</string>
 
     <!--Buttonに表示する文字列-->
     <string name="main_btn_divine">聞いてみる</string>
     <string name="main_btn_divine3">リセット</string>
 
-    <string name="main_btn_divine2">前に戻る</string>
+    <string name="main_btn_divine2">気に入りません</string>
 
     <!--性別データ-->
     <string name="main_radio_btn_male">男性</string>
