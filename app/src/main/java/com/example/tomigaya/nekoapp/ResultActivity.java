@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 public class ResultActivity extends AppCompatActivity implements View.OnClickListener {
@@ -18,6 +19,10 @@ public class ResultActivity extends AppCompatActivity implements View.OnClickLis
        // TextView txvName = (TextView) findViewById(R.id.result_txv_name);
         TextView txvDivine = (TextView) findViewById(R.id.result_txv_divine);
 
+        //
+        ImageView imgDivine = (ImageView) findViewById(R.id.result_image_divine);
+
+
         // 遷移元のIntentを取得
         Intent intent=getIntent();
 
@@ -29,8 +34,10 @@ public class ResultActivity extends AppCompatActivity implements View.OnClickLis
         //遷移先でセットした結果番号を取得する
         //defaultValue  キーに対応するデータが見つからなかった時，返す値
         String food = intent.getStringExtra(MainActivity.RESULT_FOOD);
-
         txvDivine.setText(food);
+
+        int ryori = NekoData.FOOD_DATA.get(food);
+        imgDivine.setImageResource(ryori);
 
 
 

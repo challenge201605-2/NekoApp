@@ -23,4 +23,22 @@ public class NekoData {
                     put(R.drawable.neko12, "ドルマ");
                 }
             };
+
+    public static final HashMap<String, Integer> FOOD_DATA =
+            new HashMap<String, Integer>() {
+                {
+                    put("オムライス",R.drawable.neko1 );
+                    put("うどん",R.drawable.neko2);
+                    put("トムヤンクン",R.drawable.neko3);
+                    put("ビーフストロガロフ",R.drawable.neko4);
+                    put("北京ダック",R.drawable.neko5);
+                    put("ジャーマンポテト",R.drawable.neko6);
+                    put("ヒョットヤーケ",R.drawable.neko7);
+                    put( "もってのほか",R.drawable.neko8);
+                    put("シシカバブ",R.drawable.neko9);
+                    put("クレームブリュレ",R.drawable.neko10);
+                    put( "ニュンベルクソーセージ",R.drawable.neko11);
+                    put("ドルマ",R.drawable.neko12);
+                }
+            };
 }
