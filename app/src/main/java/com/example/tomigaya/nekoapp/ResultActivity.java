@@ -22,17 +22,15 @@ public class ResultActivity extends AppCompatActivity implements View.OnClickLis
         Intent intent=getIntent();
 
         // 遷移元でセットした氏名を取得し、TextViewに設定する
-        String name = intent.getStringExtra(com.example.tomigaya.nekoapp.MainActivity.INPUT_NAME);
+        String name = intent.getStringExtra(MainActivity.INPUT_NAME);
         txvName.setText(name);
 
 
         //遷移先でセットした結果番号を取得する
         //defaultValue  キーに対応するデータが見つからなかった時，返す値
-        int resultNumber = intent.getIntExtra(com.example.tomigaya.nekoapp.MainActivity.RESULT_NUMBER,0);
+        String food = intent.getStringExtra(MainActivity.RESULT_FOOD);
 
-        // Resource(resフォルダのstrings.xml)より、String型の配列データを取得
-        String[] divineData = getResources().getStringArray(R.array.result_txv_divine_date);
-        txvDivine.setText(divineData[resultNumber]);
+        txvDivine.setText(food);
 
 
 

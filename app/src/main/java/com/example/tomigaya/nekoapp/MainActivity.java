@@ -15,12 +15,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public static final String INPUT_NAME = "InputName";
 
     //占い結果の計算値に対応するキー名（定数）
-    public static final String RESULT_NUMBER = "ResultNumber";
+    public static final String RESULT_FOOD = "ResultFood";
 
     // レイアウト(activity_main.xml)より、エディットテキスト(IDがmain_etx_name)を取得
     private EditText etx;
 
     public ImageButton mNekoButton =  null;
+
+    // 今表示されている猫画像のID
+    private int nekoImageID = R.drawable.neko1;
 
 
     @Override
@@ -45,39 +48,51 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 switch(resultNumber) {
                     case 0:
                         mNekoButton.setImageResource(R.drawable.neko1);
+                        nekoImageID = R.drawable.neko1;
                         break;
                     case 1:
                         mNekoButton.setImageResource(R.drawable.neko2);
+                        nekoImageID = R.drawable.neko2;
                         break;
                     case 2:
                     mNekoButton.setImageResource(R.drawable.neko3);
+                        nekoImageID = R.drawable.neko3;
                         break;
                     case 3:
                         mNekoButton.setImageResource(R.drawable.neko4);
+                        nekoImageID = R.drawable.neko4;
                         break;
                     case 4:
                         mNekoButton.setImageResource(R.drawable.neko5);
+                        nekoImageID = R.drawable.neko5;
                         break;
                     case 5:
                         mNekoButton.setImageResource(R.drawable.neko6);
+                        nekoImageID = R.drawable.neko6;
                         break;
                     case 6:
                         mNekoButton.setImageResource(R.drawable.neko7);
+                        nekoImageID = R.drawable.neko7;
                         break;
                     case 7:
                         mNekoButton.setImageResource(R.drawable.neko8);
+                        nekoImageID = R.drawable.neko8;
                         break;
                     case 8:
                         mNekoButton.setImageResource(R.drawable.neko9);
+                        nekoImageID = R.drawable.neko9;
                         break;
                     case 9:
                         mNekoButton.setImageResource(R.drawable.neko10);
+                        nekoImageID = R.drawable.neko10;
                         break;
                     case 10:
                         mNekoButton.setImageResource(R.drawable.neko11);
+                        nekoImageID = R.drawable.neko11;
                         break;
                     case 11:
                         mNekoButton.setImageResource(R.drawable.neko12);
+                        nekoImageID = R.drawable.neko12;
                         break;
 
                     default:
@@ -92,44 +107,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         //this このクラス
         divineBtn.setOnClickListener(this);
     }
-
-    @Override
-    protected void onStart() {
-        super.onStart();
-        Log.d("LifeCycle", "onStart");
-
-    }
-
-    @Override
-    protected void onResume() {
-        super.onResume();
-        Log.d("LifeCycle", "onResume");
-    }
-
-    @Override
-    protected void onPause() {
-        super.onPause();
-        Log.d("LifeCycle", "onPause");
-    }
-
-    @Override
-    protected void onRestart() {
-        super.onRestart();
-        Log.d("LifeCycle", "onRestart");
-    }
-
-    @Override
-    protected void onStop() {
-        super.onStop();
-        Log.d("LifeCycle", "onStop");
-    }
-
-    @Override
-    protected void onDestroy() {
-        super.onDestroy();
-        Log.d("LifeCycle", "onDestroy");
-    }
-
 
     //押されたビュー（テキスト，ボタン等）の情報
     @Override
@@ -155,8 +132,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                // intent.putExtra(INPUT_NAME, inputName);
 
                 //0-9までのランダムな値を生成する
-                int resultNumber = new java.util.Random().nextInt(10);
-                intent.putExtra(RESULT_NUMBER, resultNumber);
+//                int resultNumber = new java.util.Random().nextInt(10);
+//                intent.putExtra(RESULT_FOOD, resultNumber);
+                String food = NekoData.NEKO_DATA.get(nekoImageID);
+                intent.putExtra(RESULT_FOOD, food);
+
                 // 画面遷移開始
 
                 startActivity(intent);
