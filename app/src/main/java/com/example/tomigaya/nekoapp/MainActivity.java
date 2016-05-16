@@ -41,14 +41,45 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         mNekoButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                int resultNumber = new java.util.Random().nextInt(5);
+                int resultNumber = new java.util.Random().nextInt(15);
                 switch(resultNumber) {
                     case 0:
-                        mNekoButton.setImageResource(R.drawable.neko2);
+                        mNekoButton.setImageResource(R.drawable.neko1);
                         break;
                     case 1:
-                        mNekoButton.setImageResource(R.drawable.neko3);
+                        mNekoButton.setImageResource(R.drawable.neko2);
                         break;
+                    case 2:
+                    mNekoButton.setImageResource(R.drawable.neko3);
+                        break;
+                    case 3:
+                        mNekoButton.setImageResource(R.drawable.neko4);
+                        break;
+                    case 4:
+                        mNekoButton.setImageResource(R.drawable.neko5);
+                        break;
+                    case 5:
+                        mNekoButton.setImageResource(R.drawable.neko6);
+                        break;
+                    case 6:
+                        mNekoButton.setImageResource(R.drawable.neko7);
+                        break;
+                    case 7:
+                        mNekoButton.setImageResource(R.drawable.neko8);
+                        break;
+                    case 8:
+                        mNekoButton.setImageResource(R.drawable.neko9);
+                        break;
+                    case 9:
+                        mNekoButton.setImageResource(R.drawable.neko10);
+                        break;
+                    case 10:
+                        mNekoButton.setImageResource(R.drawable.neko11);
+                        break;
+                    case 11:
+                        mNekoButton.setImageResource(R.drawable.neko12);
+                        break;
+
                     default:
                         mNekoButton.setImageResource(R.drawable.background);
                         break;
@@ -133,11 +164,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
 
 
-            case R.id.main_btn_divine3:
+           // case R.id.main_btn_divine3:
            //     etx = (EditText) findViewById(R.id.main_etx_name);
 
-                etx.setText("");
-                break;
+               // etx.setText("");
+             //   break;
         }
     }
 }

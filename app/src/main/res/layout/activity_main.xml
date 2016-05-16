@@ -98,12 +98,12 @@
         android:text="@string/main_btn_divine"
         android:layout_weight="0.5"
         android:id="@+id/main_btn_divine"/>
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/main_btn_divine3"
-        android:layout_weight="0.5"
-        android:id="@+id/main_btn_divine3"/>
+    //  リセットボタン
+    //    android:layout_width="match_parent"
+    //    android:layout_height="wrap_content"
+    //    android:text="@string/main_btn_divine3"
+    //    android:layout_weight="0.5"
+    //    android:id="@+id/main_btn_divine3"/>
 
 
 </LinearLayout>

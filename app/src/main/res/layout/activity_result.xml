@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:id="@+id/result_txv_name"
-        android:text="ここに氏名が表示されます。"
+        android:text=""
         android:textColor="@color/colortext"
         />
 
@@ -22,7 +22,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:id="@+id/result_txv_divine"
-        android:text="ここに占い結果が表示されます。"
+        android:text=""
         android:textColor="@color/colortext"/>
 
     <Button
