@@ -10,7 +10,7 @@
     <!--氏名テキスト-->
 
 
-    <!--占い結果テキスト-->
+    <!--結果テキスト-->
 
     <TextView
         android:layout_width="wrap_content"

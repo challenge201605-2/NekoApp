@@ -10,13 +10,13 @@ public class NekoData {
             new HashMap<Integer, String>() {
                 {
                     put(R.drawable.neko1, "オムライス");
-                    put(R.drawable.neko2, "うどん");
+                    put(R.drawable.neko2, "おでん");
                     put(R.drawable.neko3, "トムヤンクン");
                     put(R.drawable.neko4, "ビーフストロガロフ");
-                    put(R.drawable.neko5, "北京ダック");
-                    put(R.drawable.neko6, "ジャーマンポテト");
+                    put(R.drawable.neko5, "ラーメン");
+                    put(R.drawable.neko6, "コロッケ");
                     put(R.drawable.neko7, "ヒョットヤーケ");
-                    put(R.drawable.neko8, "もってのかも");
+                    put(R.drawable.neko8, "もってのほか");
                     put(R.drawable.neko9, "シシカバブ");
                     put(R.drawable.neko10, "クレームブリュレ");
                     put(R.drawable.neko11, "ニュンベルクソーセージ");
@@ -27,18 +27,18 @@ public class NekoData {
     public static final HashMap<String, Integer> FOOD_DATA =
             new HashMap<String, Integer>() {
                 {
-                    put("オムライス",R.drawable.neko1 );
-                    put("うどん",R.drawable.neko2);
-                    put("トムヤンクン",R.drawable.neko3);
-                    put("ビーフストロガロフ",R.drawable.neko4);
-                    put("北京ダック",R.drawable.neko5);
-                    put("ジャーマンポテト",R.drawable.neko6);
-                    put("ヒョットヤーケ",R.drawable.neko7);
-                    put( "もってのほか",R.drawable.neko8);
-                    put("シシカバブ",R.drawable.neko9);
-                    put("クレームブリュレ",R.drawable.neko10);
-                    put( "ニュンベルクソーセージ",R.drawable.neko11);
-                    put("ドルマ",R.drawable.neko12);
+                    put("オムライス",R.drawable.omu);
+                    put("おでん",R.drawable.oden);
+                    put("トムヤンクン",R.drawable.tomu);
+                    put("ビーフストロガロフ",R.drawable.beaf);
+                    put("ラーメン",R.drawable.men);
+                    put("コロッケ",R.drawable.korokke);
+                    put("ヒョットヤーケ",R.drawable.hyotto);
+                    put( "もってのほか",R.drawable.motte);
+                    put("シシカバブ",R.drawable.sisikababu);
+                    put("クレームブリュレ",R.drawable.kuri);
+                    put( "ニュンベルクソーセージ",R.drawable.sausage);
+                    put("ドルマ",R.drawable.doruma);
                 }
             };
 }
