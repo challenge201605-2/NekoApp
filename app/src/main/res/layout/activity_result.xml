@@ -4,8 +4,8 @@
     android:layout_height="match_parent"
     android:padding="@dimen/screen_padding"
     android:weightSum="1"
-    android:background="#ffffff"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@drawable/resulthaikei">
 
 
 
@@ -43,7 +43,8 @@
         android:layout_width="match_parent"
         android:layout_height="160dp"
         android:id="@+id/result_image_divine"
-        android:src="@drawable/result" />
+        android:src="@drawable/result"
+        android:layout_marginTop="40dp"/>
 
     <ImageView
         android:layout_width="150dp"
