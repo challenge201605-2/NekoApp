@@ -96,7 +96,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         break;
 
                     default:
-                        mNekoButton.setImageResource(R.drawable.background);
+                        mNekoButton.setImageResource(R.drawable.waru);
+                        nekoImageID = R.drawable.waru;
                         break;
                 }
             }

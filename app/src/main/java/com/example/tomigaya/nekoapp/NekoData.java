@@ -21,6 +21,8 @@ public class NekoData {
                     put(R.drawable.neko10, "クレームブリュレ");
                     put(R.drawable.neko11, "ニュンベルクソーセージ");
                     put(R.drawable.neko12, "ドルマ");
+                    put(R.drawable.waru, "何もなし");
+
                 }
             };
 
@@ -39,6 +41,8 @@ public class NekoData {
                     put("クレームブリュレ",R.drawable.kuri);
                     put( "ニュンベルクソーセージ",R.drawable.sausage);
                     put("ドルマ",R.drawable.doruma);
+                    put("何もなし",R.drawable.kara2);
+
 
                 }
             };
