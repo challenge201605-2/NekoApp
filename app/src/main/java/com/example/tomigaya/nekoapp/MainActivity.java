@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     //入力された名前に対応するキー名（定数）
     public static final String INPUT_NAME = "InputName";
 
-    //占い結果の計算値に対応するキー名（定数）
+    //結果の計算値に対応するキー名（定数）
     public static final String RESULT_FOOD = "ResultFood";
 
     // レイアウト(activity_main.xml)より、エディットテキスト(IDがmain_etx_name)を取得
@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         mNekoButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                int resultNumber = new java.util.Random().nextInt(15);
+                int resultNumber = new java.util.Random().nextInt(13);
                 switch(resultNumber) {
                     case 0:
                         mNekoButton.setImageResource(R.drawable.neko1);
@@ -115,21 +115,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             case R.id.main_btn_divine:
 
-                //占うボタンが押された時の処理を書く
+                //聞いてみるボタンが押された時の処理を書く
                 // Intentクラスのオブジェクトを作成
                 //this:                 このクラスMainActivity自身
                 //ResultActivity.class:遷移先のクラス
                 Intent intent = new Intent(this,ResultActivity.class);
 
-                //入力されている名前Stringを文字列として取得
-            //    etx = (EditText) findViewById(R.id.main_etx_name);
-              //  String inputName = etx.getText().toString();
 
-
-                //遷移先に渡すデータをセット
-                //１取り出すときに指定するキー
-                //２実際のデータ
-               // intent.putExtra(INPUT_NAME, inputName);
 
                 //0-9までのランダムな値を生成する
 //                int resultNumber = new java.util.Random().nextInt(10);
@@ -143,12 +135,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
                 break;
 
-
-           // case R.id.main_btn_divine3:
-           //     etx = (EditText) findViewById(R.id.main_etx_name);
-
-               // etx.setText("");
-             //   break;
         }
     }
 }

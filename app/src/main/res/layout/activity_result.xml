@@ -5,9 +5,9 @@
     android:padding="@dimen/screen_padding"
     android:weightSum="1"
     android:background="#ffffff"
-    android:orientation="vertical">>
+    android:orientation="vertical">
 
-    <!--氏名テキスト-->
+
 
 
     <!--結果テキスト-->
@@ -23,12 +23,11 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="50dp"
+        android:textSize="40dp"
         android:id="@+id/result_txv_divine"
-        android:text=""
         android:textColor="@color/colortext"
         android:layout_gravity="top|center_horizontal"
-        android:layout_marginTop="40dp"/>
+        />
 
     <TextView
         android:layout_width="wrap_content"
@@ -42,7 +41,7 @@
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="130dp"
+        android:layout_height="160dp"
         android:id="@+id/result_image_divine"
         android:src="@drawable/result" />
 
