@@ -4,7 +4,7 @@
     <!--TextViewに表示する文字列-->
     <string name="main_txv_title">肉球ルーレット</string>
     <string name="main_txv_decide">何を食べるか決めてあげるにゃ！</string>
-    <string name="main_txv_gender">好きなにゃんこを選ぶにゃ</string>
+    <string name="main_txv_gender">タップして好きなにゃんこを選ぶにゃ</string>
 
     <!--Buttonに表示する文字列-->
     <string name="main_btn_divine">聞いてみる💛</string>
