@@ -23,7 +23,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="40dp"
+        android:textSize="30dp"
         android:id="@+id/result_txv_divine"
         android:textColor="@color/colortext3"
         android:layout_gravity="top|center_horizontal"
@@ -36,7 +36,6 @@
         android:text="@string/result_txv_title4"
         android:layout_marginTop="0dp"
         android:textColor="@color/colortext3"
-        android:layout_marginBottom="10dp"
         android:layout_gravity="right"
         android:typeface="monospace" />
 
@@ -45,7 +44,7 @@
         android:layout_height="220dp"
         android:id="@+id/result_image_divine"
         android:src="@drawable/result"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="10dp"
         android:layout_weight="0.03" />
 
     <TableLayout
@@ -62,23 +61,23 @@
 
         <ImageView
         android:layout_width="200dp"
-        android:layout_height="100dp"
+        android:layout_height="90dp"
         android:src="@drawable/resultfukidashi"
         android:id="@+id/imageView" />
 
          <ImageView
         android:layout_width="150dp"
-        android:layout_height="100dp"
+        android:layout_height="90dp"
         android:src="@drawable/result"
         android:layout_marginTop="5dp"/>
         </LinearLayout>
 
     <Button
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="21dp"
         android:text="@string/main_btn_divine2"
         android:id="@+id/main_btn_divine2"
-        android:layout_marginTop="20dp" />
+        android:layout_weight="0.54" />
 
 
 </LinearLayout>

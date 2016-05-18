@@ -12,7 +12,7 @@ public class NekoData {
                     put(R.drawable.neko1, "オムライス");
                     put(R.drawable.neko2, "おでん");
                     put(R.drawable.neko3, "トムヤンクン");
-                    put(R.drawable.neko4, "ビーフストロガロフ");
+                    put(R.drawable.neko4, "ビーフストロガノフ");
                     put(R.drawable.neko5, "ラーメン");
                     put(R.drawable.neko6, "コロッケ");
                     put(R.drawable.neko7, "ヒョットヤーケ");
@@ -32,7 +32,7 @@ public class NekoData {
                     put("オムライス",R.drawable.omu);
                     put("おでん",R.drawable.oden);
                     put("トムヤンクン",R.drawable.tomu);
-                    put("ビーフストロガロフ",R.drawable.beaf);
+                    put("ビーフストロガノフ",R.drawable.beaf);
                     put("ラーメン",R.drawable.men);
                     put("コロッケ",R.drawable.korokke);
                     put("ヒョットヤーケ",R.drawable.hyotto);

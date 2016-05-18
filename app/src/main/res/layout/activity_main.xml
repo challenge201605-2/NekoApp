@@ -15,33 +15,6 @@
     android:gravity="center_horizontal"
     android:background="@drawable/mainhaikei">
 
-    <!--タイトル-->
-    <!--text:表示する文字列-->
-    <!--layout_gravity:文字の配置位置-->
-    <!--textSize:テキストのサイズ-->
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:weightSum="1"></LinearLayout>
-    <!--名前テキスト-->
-    <!--textAppearance:テキストのスタイル-->
-
-
-
-    <!--名前入力欄-->
-    <!--inputType:入力形式-->
-    <!--ems:入力文字数-->
-    <!--id:識別子(プログラムから呼び出す際に必要)-->
-
-
-
-
-    <!--年号選択スピナー-->
-    <!--entries:スピナーに設定する値(配列)-->
-
-
-
     <!--性別テキスト-->
     <ImageView
         android:layout_width="172dp"
@@ -62,22 +35,20 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        >
+        android:orientation="horizontal">
 
         <ImageView
             android:layout_width="20dp"
             android:layout_height="30dp"
             android:src="@drawable/maindown"
-            android:layout_marginTop="10dp"/>
+            />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="20dp"
+            android:textSize="18dp"
             android:text="@string/main_txv_gender"
             android:id="@+id/main_gender_txv"
-            android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"
             android:textColor="@color/colortext"/>
 
@@ -87,7 +58,7 @@
 
     <ImageButton
         android:id="@+id/img_button"
-        android:layout_width="match_parent"
+        android:layout_width="300dp"
         android:layout_height="0dp"
         android:layout_weight="7"
         android:src="@drawable/neko1"
@@ -130,12 +101,5 @@
         android:background="#f9cbbe"
         android:textColor="#ffffff"
         android:textSize="30dp"/>
-    //  リセットボタン
-    //    android:layout_width="match_parent"
-    //    android:layout_height="wrap_content"
-    //    android:text="@string/main_btn_divine3"
-    //    android:layout_weight="0.5"
-    //    android:id="@+id/main_btn_divine3"/>
-
 
 </LinearLayout>
